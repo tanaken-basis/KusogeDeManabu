@@ -1,0 +1,39 @@
+[{
+    "id": "monster_1",
+    "name": "パワポ怪人(弱)",
+    "display": true,
+    "width": 64,
+    "height": 48,
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+        "file": "assets/images/monster_1.png",
+        "width": 100,
+        "height": 70,
+        "length": 1,
+        "alpha": 1,
+        "frame": 0,
+        "frames": {
+            "ready": [0],
+            "actions": null
+        },
+        "fps": 6
+    },
+    "stop": false,
+    "hpMax": 50,
+    "mpMax": 0,
+    "atk": 5,
+    "def": 5,
+    "itl": 5,
+    "agl": 5,
+    "luk": 5,
+    "skills": null,
+    "hp": 50,
+    "mp": 0,
+    "conditions": [],
+    "exp": 1,
+    "money": 10,
+    "treasures":[
+      {"id": "commodity_1", "prob": 0.2}
+    ]
+}]

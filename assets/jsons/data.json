@@ -1,0 +1,83 @@
+{
+    "players": [{
+        "id": "player_1",
+        "name": "モモピー",
+        "display": true,
+        "width": 32,
+        "height": 32,
+        "initPos": {
+            "x": 100,
+            "y": 200
+        },
+        "pos": {
+            "x": 100,
+            "y": 200
+        },
+        "initFrameState": "down",
+        "frameState": "down",
+        "sprite": {
+            "file": "assets/images/player_1.png",
+            "width": 32,
+            "height": 32,
+            "length": 12,
+            "alpha": 1,
+            "frame": 0,
+            "frames": {
+                "down": [0, 1, 2],
+                "left": [3, 4, 5],
+                "right": [6, 7, 8],
+                "up": [9, 10, 11],
+                "actions": null
+            },
+            "fps": 6
+        },
+        "velocity": 200,
+        "level": 1,
+        "hpMax": 120,
+        "mpMax": 40,
+        "atk": 10,
+        "def": 10,
+        "itl": 20,
+        "agl": 10,
+        "luk": 10,
+        "skills": ["skill_1"],
+        "hp": 120,
+        "mp": 40,
+        "conditions": [],
+        "exp": 0,
+        "equipments": {
+            "arm": "arm_1",
+            "armor": "armor_1",
+            "shield": "shield_1",
+            "accessories": null
+        }
+    }],
+    "state": {
+        "date": "",
+        "id": "start",
+        "scene": "start",
+        "map": "start",
+        "pos": {
+            "x": 96,
+            "y": 128
+        },
+        "eventFlags": {},
+        "openedBoxes": {},
+        "npcsPosMoves": {},
+        "params": {},
+        "updateButtons": true,
+        "updateMenu": true,
+        "updateNpcs": true,
+        "stop": false,
+        "velocity": 250,
+        "items": {
+            "commodity_1": {
+                "num": 2
+            },
+            "commodity_2": {
+                "num": 1
+            }
+        },
+        "money": 100
+    }
+}

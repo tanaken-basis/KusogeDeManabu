@@ -1,0 +1,653 @@
+[{
+  "id": "map_1_ova",
+  "name": "オヴァ",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x": 176,
+    "y": 144
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_ova.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 64,
+    "down": 64,
+    "left": 64,
+    "right": 64
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["おかえり。"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  },{
+    "talkPatternIds": ["scene_1"],
+    "contents": [
+      ["モモピーや。", "お前もずいぶん大人になったようじゃ。"],
+      ["この「フォンカーン村」では", "みんな大人になると", "それぞれの「ソトゥギョーの書」を", "探しに行くのじゃ。"],
+      ["村の人々の話を聞いて回ってから", "ソトゥギョーの書を探す旅に", "行ってくるのじゃ。"]
+    ],
+    "charDelays": [
+      [
+        [0.08]
+      ],
+      [
+        [0.08]
+      ],
+      [
+        [0.08]
+      ]
+    ],
+    "lineDelays": [
+      [0.4],
+      [0.4],
+      [0.4]
+    ],
+    "events": []
+  }]
+}, {
+  "id": "map_1_ody",
+  "name": "オディ",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x": 208,
+    "y": 144
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_ody.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 64,
+    "down": 64,
+    "left": 64,
+    "right": 64
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["オヴァがソトゥギョーの書を","無くしてしまったらしいのじゃ。","どこにあるのかの～。"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }, {
+    "talkPatternIds": ["scene_1"],
+    "names": ["オディ", "モモピー"],
+    "contents": [
+      ["モモピー。", "実はお前の出生についてじゃが…", "いや、なんでもない。", "忘れておくれ。"],
+      ["（……？？？）"]
+    ],
+    "charDelays": [
+      [
+        [0.05]
+      ],
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.25, 0.25, 1.5, 0.25],
+      [0.1]
+    ],
+    "events": []
+  }]
+}, {
+  "id": "map_1_machibito_1",
+  "name": "辛口な村人",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x": 608,
+    "y": 112
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_machibito_1.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 64,
+    "down": 64,
+    "left": 64,
+    "right": 64
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["ソトゥギョーの書なんてただの紙だぞ！"],
+      ["でもほしいなあ…"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }, {
+    "talkPatternIds": ["scene_1"],
+    "contents": [
+      ["こんなクソゲーにチュートリアル", "なんかあるわけないぞ!"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+}, {
+  "id": "map_1_machibito_2",
+  "name": "一言多い村人",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x": 144,
+    "y": 368
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_machibito_2.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 2,
+  "movingRange": {
+    "up": 64,
+    "down": 64,
+    "left": 64,
+    "right": 64
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["ここはフォンカーン村だよ。"],
+      ["多分ね。"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }, {
+    "talkPatternIds": ["scene_1"],
+    "names": ["一言多い村人", "モモピー", "一言多い村人"],
+    "contents": [
+      ["ここはフォンカーン村だよ。", "私は、ソトゥギョーの書を持ってるよ。", "君はまだ持っていないみたいだけどね。"],
+      ["（嫌味な人だなぁ）"],
+      ["なんか言ったかい？"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.3]
+    ],
+    "events": []
+  }]
+}, {
+  "id": "map_1_machibito_3",
+  "name": "旅好きな村人",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x": 896,
+    "y": 576
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_machibito_2.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 2,
+  "movingRange": {
+    "up": 64,
+    "down": 64,
+    "left": 64,
+    "right": 64
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["どこか旅に行きたいぞよ。"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }, {
+    "talkPatternIds": ["scene_1"],
+    "contents": [
+      ["この村を出て西に行くと、", "「クリスタルパレス」があるぞよ。", "あすこは本がいっぱいあるから", "ソトゥギョーの書もあるかもしれぬぞよ！"],
+      ["ちなみに西は左だぞよ。"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+}, {
+  "id": "map_1_machibito_4",
+  "name": "橋好きな村人",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x": 48,
+    "y": 976
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_machibito_1.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 64,
+    "down": 64,
+    "left": 64,
+    "right": 64
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["橋、橋、橋、橋ぃ～～～！"],
+      ["トンネルゥ～～！"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }, {
+    "talkPatternIds": ["scene_1"],
+    "contents": [
+      ["北の方にある「ドンブラコ川」の橋は、", "修繕作業中で渡れないみたいだよ。"],
+      ["ちなみに北は上だよ。"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+}, {
+  "id": "map_1_machibito_5",
+  "name": "困惑している村人",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x": 976,
+    "y": 48
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_machibito_2.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 64,
+    "down": 64,
+    "left": 64,
+    "right": 64
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["ソトゥギョーの書が簡単に手に入らない", "ように、「オニキョージュ」が世界中に", "モンスターをばらまいてしまったんだ。", "困ったよなあ。"],
+      ["しかもモンスターを倒すには、", "「行列」の計算をしないといけない", "みたいなんだ。", "本当に参っちゃうよなあ。"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+}, {
+  "id": "map_1_merchant_1",
+  "name": "誠実な商人",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x": 144,
+    "y": 848
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_merchant.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 2,
+  "movingRange": {
+    "up": 64,
+    "down": 64,
+    "left": 64,
+    "right": 64
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["何を買ってくれるんだい？"],
+      "shopping_1", ["またおいで。"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+}, {
+  "id": "map_1_doctor_1",
+  "name": "陽気なお医者さん",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x": 144,
+    "y": 752
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_doctor.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 2,
+  "movingRange": {
+    "up": 64,
+    "down": 64,
+    "left": 64,
+    "right": 64
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["治療しますよ～。"],
+      "healing_1", ["お大事に～。"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+}, {
+  "id": "map_1_recorder_1",
+  "name": "忠実な記録人",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x": 880,
+    "y": 848
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_rec.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 2,
+  "movingRange": {
+    "up": 64,
+    "down": 64,
+    "left": 64,
+    "right": 64
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["セーブしますか？"],
+      "saveData_1", ["頑張ってください！"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+}]

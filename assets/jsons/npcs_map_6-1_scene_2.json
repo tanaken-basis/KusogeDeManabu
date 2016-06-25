@@ -1,0 +1,498 @@
+[
+  {
+    "id": "map_1_ody_scene_2",
+    "name": "オディ",
+    "display": true,
+    "width": 32,
+    "height": 32,
+    "pos": {
+      "x":  688 , "y":  784
+    },
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+      "file": "assets/images/npc_ody.png",
+      "width": 32,
+      "height": 32,
+      "length": 12,
+      "alpha": 1,
+      "frame": 0,
+      "frames": {
+        "down": [0, 1, 2],
+        "left": [3, 4, 5],
+        "right": [6, 7, 8],
+        "up": [9, 10, 11],
+        "actions": null
+      },
+      "fps": 6
+    },
+    "stop": false,
+    "velocity": 100,
+    "gait": 0,
+    "movingRange": {
+      "up": 64,
+      "down": 64,
+      "left": 64,
+      "right": 64
+    },
+    "effectiveRange": 38,
+    "talkPatternIndex": null,
+    "talks": [{
+      "talkPatternIds": ["scene_2"],
+      "names": ["オディ", "モモピー", "オディ", "モモピー"],
+      "contents": [
+        ["おお、モモピー。"],
+        ["オディさん！！"],
+        ["オニキョージュの手下に連れてこられ", "たんじゃが、こんなところでトンネルを", "掘らされているんじゃ！", "金払いはいいんだが…。"],
+        ["（お金が発生しているのか……？？？）"]
+      ],
+      "charDelays": [
+        [
+          [0.05]
+        ],
+        [
+          [0.01]
+        ]
+      ],
+      "lineDelays": [
+        [0.25, 0.25, 1.5, 0.25],
+        [0.1]
+      ],
+      "events": []
+    }]
+  }, {
+    "id": "map_1_machibito_1_scene_2",
+    "name": "辛口な村人",
+    "display": true,
+    "width": 32,
+    "height": 32,
+    "pos": {
+      "x":  976 , "y":  528
+    },
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+      "file": "assets/images/npc_machibito_1.png",
+      "width": 32,
+      "height": 32,
+      "length": 12,
+      "alpha": 1,
+      "frame": 0,
+      "frames": {
+        "down": [0, 1, 2],
+        "left": [3, 4, 5],
+        "right": [6, 7, 8],
+        "up": [9, 10, 11],
+        "actions": null
+      },
+      "fps": 6
+    },
+    "stop": false,
+    "velocity": 100,
+    "gait": 0,
+    "movingRange": {
+      "up": 64,
+      "down": 64,
+      "left": 64,
+      "right": 64
+    },
+    "effectiveRange": 38,
+    "talkPatternIndex": null,
+    "talks": [{
+      "talkPatternIds": ["scene_2"],
+      "names":["辛口な村人", "モモピー"],
+      "contents": [
+        ["金に釣られてやってきたけど、", "仕事がきつすぎるぞ！", "あいつらは本当にオニだ！！"],
+        ["（やっぱりただの出稼ぎだったのか…。）"]
+      ],
+      "charDelays": [
+        [
+          [0.01]
+        ]
+      ],
+      "lineDelays": [
+        [0.1]
+      ],
+      "events": []
+    }]
+  }, {
+    "id": "map_1_machibito_2_scene_2",
+    "name": "一言多い村人",
+    "display": true,
+    "width": 32,
+    "height": 32,
+    "pos": {
+      "x":  336 , "y":  528
+    },
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+      "file": "assets/images/npc_machibito_2.png",
+      "width": 32,
+      "height": 32,
+      "length": 12,
+      "alpha": 1,
+      "frame": 0,
+      "frames": {
+        "down": [0, 1, 2],
+        "left": [3, 4, 5],
+        "right": [6, 7, 8],
+        "up": [9, 10, 11],
+        "actions": null
+      },
+      "fps": 6
+    },
+    "stop": false,
+    "velocity": 100,
+    "gait": 2,
+    "movingRange": {
+      "up": 64,
+      "down": 64,
+      "left": 64,
+      "right": 64
+    },
+    "effectiveRange": 38,
+    "talkPatternIndex": null,
+    "talks": [{
+      "talkPatternIds": ["scene_2"],
+      "contents": [
+        ["このトンネルはサンパチトンネルという", "名前になるらしいな。"],
+        ["そういえば、ソトゥギョーの書は", "まだ手に入れていないのかい？"]
+      ],
+      "charDelays": [
+        [
+          [0.01]
+        ]
+      ],
+      "lineDelays": [
+        [0.1]
+      ],
+      "events": []
+    }]
+  }, {
+    "id": "map_1_machibito_3_scene_2",
+    "name": "旅好きな村人",
+    "display": true,
+    "width": 32,
+    "height": 32,
+    "pos": {
+      "x":  144 , "y":  144
+    },
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+      "file": "assets/images/npc_machibito_2.png",
+      "width": 32,
+      "height": 32,
+      "length": 12,
+      "alpha": 1,
+      "frame": 0,
+      "frames": {
+        "down": [0, 1, 2],
+        "left": [3, 4, 5],
+        "right": [6, 7, 8],
+        "up": [9, 10, 11],
+        "actions": null
+      },
+      "fps": 6
+    },
+    "stop": false,
+    "velocity": 100,
+    "gait": 2,
+    "movingRange": {
+      "up": 64,
+      "down": 64,
+      "left": 64,
+      "right": 64
+    },
+    "effectiveRange": 38,
+    "talkPatternIndex": null,
+    "talks": [{
+      "talkPatternIds": ["scene_2"],
+      "contents": [
+        ["これは、私が求めている旅とは違うぞよ！", "でも、旅の資金はたんまりたまりそう", "だぞよ。", "うししだぞよ！"]
+      ],
+      "charDelays": [
+        [
+          [0.01]
+        ]
+      ],
+      "lineDelays": [
+        [0.1]
+      ],
+      "events": []
+    }]
+  }, {
+    "id": "map_1_machibito_4_scene_2",
+    "name": "橋好きな村人",
+    "display": true,
+    "width": 32,
+    "height": 32,
+    "pos": {
+      "x":  432 , "y":  144
+    },
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+      "file": "assets/images/npc_machibito_1.png",
+      "width": 32,
+      "height": 32,
+      "length": 12,
+      "alpha": 1,
+      "frame": 0,
+      "frames": {
+        "down": [0, 1, 2],
+        "left": [3, 4, 5],
+        "right": [6, 7, 8],
+        "up": [9, 10, 11],
+        "actions": null
+      },
+      "fps": 6
+    },
+    "stop": false,
+    "velocity": 100,
+    "gait": 0,
+    "movingRange": {
+      "up": 64,
+      "down": 64,
+      "left": 64,
+      "right": 64
+    },
+    "effectiveRange": 38,
+    "talkPatternIndex": null,
+    "talks": [{
+      "talkPatternIds": ["scene_2"],
+      "contents": [
+        ["トンネルもなかなか面白いかも。"]
+      ],
+      "charDelays": [
+        [
+          [0.01]
+        ]
+      ],
+      "lineDelays": [
+        [0.1]
+      ],
+      "events": []
+    }]
+  }, {
+    "id": "map_1_machibito_5_scene_2",
+    "name": "困惑している村人",
+    "display": true,
+    "width": 32,
+    "height": 32,
+    "pos": {
+      "x":  688 , "y":  48
+    },
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+      "file": "assets/images/npc_machibito_2.png",
+      "width": 32,
+      "height": 32,
+      "length": 12,
+      "alpha": 1,
+      "frame": 0,
+      "frames": {
+        "down": [0, 1, 2],
+        "left": [3, 4, 5],
+        "right": [6, 7, 8],
+        "up": [9, 10, 11],
+        "actions": null
+      },
+      "fps": 6
+    },
+    "stop": false,
+    "velocity": 100,
+    "gait": 0,
+    "movingRange": {
+      "up": 64,
+      "down": 64,
+      "left": 64,
+      "right": 64
+    },
+    "effectiveRange": 38,
+    "talkPatternIndex": null,
+    "talks": [{
+      "talkPatternIds": ["scene_2"],
+      "contents": [
+        ["つらい仕事だからやめたいんだけど、", "給料がすごくいいんだ。", "しかも、やりがいもあるし…。", "どうしようかなあ。"]
+      ],
+      "charDelays": [
+        [
+          [0.01]
+        ]
+      ],
+      "lineDelays": [
+        [0.1]
+      ],
+      "events": []
+    }]
+  },
+  {
+  "id": "map_6-1_monster_1",
+  "name": "やさしいモンスター",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x":  592 , "y":  464
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_monster_1.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 2,
+    "down":2,
+    "left": 2,
+    "right": 2
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "names": ["やさしいモンスター","やさしいモンスター","やさしいモンスター","モモピー"],
+    "contents": [
+      ["セーブします？"],
+      "saveData_6F1", ["頑張って！"],
+      ["（やさしいな～。）"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+}, {
+  "id": "map_6-1_monster_2",
+  "name": "少しだけ面倒なモンスター",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x":  928 , "y":  688
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_monster_2.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 2,
+    "down":2,
+    "left": 2,
+    "right": 2
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["戦う気がする。"],
+      "yesNoMap6F1Monster2AtField",
+      ["そうでもなかった。"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+}, {
+  "id": "map_6-1_monster_3",
+  "name": "面倒かもしれないモンスター",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x":  544 , "y":  304
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_monster_2.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 2,
+    "down":2,
+    "left": 2,
+    "right": 2
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["戦う予感？"],
+      "yesNoMap6F1Monster3AtField",
+      ["予感はずれた～。"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+}]

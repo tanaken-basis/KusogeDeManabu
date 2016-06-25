@@ -1,0 +1,77 @@
+[{
+    "id": "monster_6_B",
+    "name": "パワポ怪人(並のボス)",
+    "display": true,
+    "width": 64,
+    "height": 48,
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+        "file": "assets/images/monster_6_B.png",
+        "width": 64,
+        "height": 64,
+        "length": 1,
+        "alpha": 1,
+        "frame": 0,
+        "frames": {
+            "ready": [0],
+            "actions": null
+        },
+        "fps": 6
+    },
+    "stop": false,
+    "hpMax": 300,
+    "mpMax": 0,
+    "atk": 15,
+    "def": 7,
+    "itl": 5,
+    "agl": 5,
+    "luk": 5,
+    "skills": null,
+    "hp": 300,
+    "mp": 0,
+    "conditions": [],
+    "exp": 1,
+    "money": 10,
+    "treasures":[
+      {"id": "commodity_1", "prob": 0.2}
+    ]
+}, {
+    "id": "monster_6",
+    "name": "パワポ怪人(並)",
+    "display": true,
+    "width": 64,
+    "height": 48,
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+        "file": "assets/images/monster_6.png",
+        "width": 64,
+        "height": 64,
+        "length": 1,
+        "alpha": 1,
+        "frame": 0,
+        "frames": {
+            "ready": [0],
+            "actions": null
+        },
+        "fps": 6
+    },
+    "stop": false,
+    "hpMax": 240,
+    "mpMax": 0,
+    "atk": 10,
+    "def": 6,
+    "itl": 5,
+    "agl": 5,
+    "luk": 5,
+    "skills": null,
+    "hp": 240,
+    "mp": 0,
+    "conditions": [],
+    "exp": 1,
+    "money": 10,
+    "treasures":[
+      {"id": "commodity_1", "prob": 0.2}
+    ]
+}]

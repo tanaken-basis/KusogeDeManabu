@@ -1,0 +1,165 @@
+{
+    "startBackground": {
+        "width": 800,
+        "height": 600,
+        "pos": {
+            "x": 0,
+            "y": 0
+        },
+        "sprite": {
+            "file": "assets/images/start_background.png",
+            "width": 800,
+            "height": 600,
+            "length": 1,
+            "alpha": 1,
+            "frame": 0,
+            "frames": null,
+            "fps": 1
+        }
+    },
+    "startTitle": {
+        "width": 600,
+        "height": 92,
+        "pos": {
+            "x": 100,
+            "y": 50
+        },
+        "sprite": {
+            "file": "assets/images/start_title.png",
+            "width": 600,
+            "height": 92,
+            "length": 1,
+            "alpha": 1,
+            "frame": 0,
+            "frames": null,
+            "fps": 1
+        }
+    },
+    "startMenu": {
+        "update": {
+            "flag": false,
+            "func": null
+        },
+        "balloon": {
+            "width": 224,
+            "height": 192,
+            "pos": {
+                "x": 288,
+                "y": 400
+            },
+            "sprite": {
+                "file": "assets/images/start_choice_balloon.png",
+                "width": 224,
+                "height": 192,
+                "length": 1,
+                "alpha": 0.75,
+                "frame": 0,
+                "frames": null,
+                "fps": 1
+            }
+        },
+        "choice": {
+            "margin": {
+                "x": 16,
+                "y": 16
+            },
+            "padding": {
+                "x": 26,
+                "y": 8
+            },
+            "highlight": {
+                "stop": false,
+                "width": 192,
+                "height": 48,
+                "sprite": null,
+                "move": {
+                    "x": 0,
+                    "y": 56
+                },
+                "increments": {
+                    "up": -1,
+                    "down": 1,
+                    "left": -1,
+                    "right": 1
+                },
+                "initIndex": 0,
+                "index": 0
+            },
+            "options": [{
+                "label": {
+                    "fontInfo": {
+                        "size": 28
+                    },
+                    "text": "はじめから"
+                },
+                "func": "newgameAtStart"
+            }, {
+                "label": {
+                    "fontInfo": {
+                        "size": 28
+                    },
+                    "text": "つづきから"
+                },
+                "func": "continueAtStart"
+            }, {
+                "label": {
+                    "text": "データ消去",
+                    "fontInfo": {
+                        "size": 28,
+                        "family": "Arial",
+                        "fill": "#ff8888"
+                    },
+                    "alpha": 0.5
+                },
+                "func": "clearAtStart"
+            }]
+        }
+    },
+    "subMenu": {
+        "update": {
+            "flag": false,
+            "func": null
+        },
+        "balloon": {
+            "width": 416,
+            "height": 320,
+            "pos": {
+                "x": 192,
+                "y": 32
+            },
+            "sprite": {
+                "file": "assets/images/sub_menu_balloon.png",
+                "width": 416,
+                "height": 320,
+                "length": 1,
+                "alpha": 0.75,
+                "frame": 0,
+                "frames": null,
+                "fps": 1
+            }
+        },
+        "choice": {
+            "margin": {
+                "x": 8,
+                "y": 12
+            },
+            "padding": {
+                "x": 8,
+                "y": 4
+            },
+            "highlight": {
+                "stop": false,
+                "width": 400,
+                "height": 32,
+                "sprite": null,
+                "move": {
+                    "x": 0,
+                    "y": 32
+                },
+                "initIndex": 0,
+                "index": 0
+            },
+            "options": []
+        }
+    }
+}

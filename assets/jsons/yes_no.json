@@ -1,0 +1,64 @@
+{
+    "yesNo": {
+        "update": {
+            "flag": false,
+            "func": null
+        },
+        "reply": false,
+        "balloon": {
+            "width": 128,
+            "height": 90,
+            "pos": {
+                "x": 336,
+                "y": 288
+            },
+            "sprite": {
+                "file": "assets/images/yes_no_balloon.png",
+                "width": 128,
+                "height": 64,
+                "length": 1,
+                "alpha": 0.75,
+                "frame": 0,
+                "frames": null,
+                "fps": 1
+            }
+        },
+        "choice": {
+            "margin": {
+                "x": 8,
+                "y": 12
+            },
+            "padding": {
+                "x": 8,
+                "y": 4
+            },
+            "highlight": {
+                "stop": false,
+                "width": 112,
+                "height": 32,
+                "sprite": null,
+                "move": {
+                    "x": 0,
+                    "y": 32
+                },
+                "initIndex": 0,
+                "index": 0
+            },
+            "options": [{
+                "label": {
+                    "text": "はい",
+                    "alpha": 1
+                },
+                "func": null,
+                "args": null
+            }, {
+                "label": {
+                    "text": "いいえ",
+                    "alpha": 1
+                },
+                "func": null,
+                "args": null
+            }]
+        }
+    }
+}

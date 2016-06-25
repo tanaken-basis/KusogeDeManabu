@@ -1,0 +1,143 @@
+[{
+    "id": "map_2_monster_1",
+    "name": "やさしいモンスター",
+    "display": true,
+    "width": 32,
+    "height": 32,
+    "pos": {
+        "x": 1600,
+        "y": 3200
+    },
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+        "file": "assets/images/npc_monster_1.png",
+        "width": 32,
+        "height": 32,
+        "length": 12,
+        "alpha": 1,
+        "frame": 0,
+        "frames": {
+            "down": [0, 1, 2],
+            "left": [3, 4, 5],
+            "right": [6, 7, 8],
+            "up": [9, 10, 11],
+            "actions": null
+        },
+        "fps": 6
+    },
+    "stop": false,
+    "velocity": 100,
+    "gait": 0,
+    "movingRange": {
+        "up": 64,
+        "down": 64,
+        "left": 64,
+        "right": 64
+    },
+    "effectiveRange": 38,
+    "talkPatternIndex": null,
+    "talks": [{
+        "talkPatternIds": [""],
+        "names":["やさしいモンスター","やさしいモンスター","やさしいモンスター","モモピー"],
+        "contents": [
+            ["わたしと戦ってみる？", "正しい答えを入力していって", "最後は連打する感じでいいの。"],
+            "battleYesNoMap2Monster1AtField",
+            ["またいつでも戦ってあげる。"],
+            ["（やさしい感じのモンスターだな～。）"]
+        ],
+        "charDelays": [
+            [
+                [0.01]
+            ]
+        ],
+        "lineDelays": [
+            [0.1]
+        ],
+        "events": []
+    }]
+}, {
+    "id": "map_2_worker_1",
+    "name": "のんびり作業員さん",
+    "display": true,
+    "width": 32,
+    "height": 32,
+    "pos": {
+        "x": 1632,
+        "y": 2432
+    },
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+        "file": "assets/images/npc_worker.png",
+        "width": 32,
+        "height": 32,
+        "length": 12,
+        "alpha": 1,
+        "frame": 0,
+        "frames": {
+            "down": [0, 1, 2],
+            "left": [3, 4, 5],
+            "right": [6, 7, 8],
+            "up": [9, 10, 11],
+            "actions": null
+        },
+        "fps": 6
+    },
+    "stop": false,
+    "velocity": 100,
+    "gait": 0,
+    "movingRange": {
+        "up": 64,
+        "down": 64,
+        "left": 64,
+        "right": 64
+    },
+    "effectiveRange": 38,
+    "talkPatternIndex": null,
+    "talks": [{
+        "talkPatternIds": [""],
+        "contents": [
+            ["この川の名前はドンブラコ川だよ。"]
+        ],
+        "charDelays": [
+            [
+                [0.01]
+            ]
+        ],
+        "lineDelays": [
+            [0.1]
+        ],
+        "events": []
+    }, {
+        "talkPatternIds": ["scene_1"],
+        "names": ["のんびり作業員さん", "モモピー"],
+        "contents": [
+            ["橋は修繕作業中だから渡れないよ。", "まあ、君なら橋が無くても", "なんとかなるかもしれないけどね～。"],
+            ["(なんか失礼な奴だな！！)"]
+        ],
+        "charDelays": [
+            [
+                [0.01]
+            ]
+        ],
+        "lineDelays": [
+            [0.1]
+        ],
+        "events": []
+    }, {
+        "talkPatternIds": ["scene_2"],
+        "contents": [
+            ["この川の名前はドンブラコ川だよ。", "この辺は急に強い風が吹くときがある", "から、橋を渡る時は気を付けないとな～。"]
+        ],
+        "charDelays": [
+            [
+                [0.01]
+            ]
+        ],
+        "lineDelays": [
+            [0.1]
+        ],
+        "events": []
+    }]
+}]

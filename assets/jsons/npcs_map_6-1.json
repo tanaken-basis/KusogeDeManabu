@@ -1,0 +1,167 @@
+[{
+  "id": "map_6-1_monster_1",
+  "name": "やさしいモンスター",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x":  592 , "y":  464
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_monster_1.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 2,
+    "down":2,
+    "left": 2,
+    "right": 2
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "names": ["やさしいモンスター","やさしいモンスター","やさしいモンスター","モモピー"],
+    "contents": [
+      ["セーブします？"],
+      "saveData_6F1", ["頑張って！"],
+      ["（やさしいな～。）"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+}, {
+  "id": "map_6-1_monster_2",
+  "name": "少しだけ面倒なモンスター",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x":  928 , "y":  688
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_monster_2.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 2,
+    "down":2,
+    "left": 2,
+    "right": 2
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["戦う気がする。"],
+      "yesNoMap6F1Monster2AtField",
+      ["そうでもなかった。"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+}, {
+  "id": "map_6-1_monster_3",
+  "name": "面倒かもしれないモンスター",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x":  544 , "y":  304
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_monster_2.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 2,
+    "down":2,
+    "left": 2,
+    "right": 2
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["戦う気がする。"],
+      "yesNoMap6F1Monster3AtField",
+      ["そうでもなかった。"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+}]

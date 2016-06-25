@@ -1,0 +1,14 @@
+{
+  "ItemsMaxLimit": 999,
+  "MoneyMaxLimit": 9999999,
+  "currencyText": "カネー",
+  "pocketText": "所持金",
+  "getText1": "「",
+  "getText2": "」を手に入れた。",
+  "getText": "を手に入れた。",
+  "getMoneyText": "カネーを手に入れた。",
+  "getExpText": "ポイントの単位のかけらを手に入れた。",
+  "getExpText1": "ポイントの単位",
+  "getExpText2": "のかけらを手に入れた。",
+  "gameOverText": "ゲームオーバー......このままでは赤点......"
+}

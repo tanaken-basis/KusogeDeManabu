@@ -1,0 +1,129 @@
+[{
+    "id": "map_3-1_monster_1_prob_1",
+    "message": {
+      "pos":{
+        "x": 64,
+        "y": 64
+      },
+      "text": "足し算とスカラー倍でこうげきだ！（上下のボタンで黄色の値が増減するぞ）"
+    },
+    "pos":{
+      "x": 128,
+      "y": 160
+    },
+    "mathexp": [
+      {
+        "type": "matrix",
+        "nrow": 2,
+        "ncol": 2,
+        "contents":[
+          [1, 0],
+          [0, 1]
+        ]
+      },
+      {
+        "type":"ope",
+        "contents":"+"
+      },
+      {
+        "type":"num",
+        "contents":2,
+        "elasticity": 0.5
+      },
+      {
+        "type": "matrix",
+        "nrow": 2,
+        "ncol": 2,
+        "contents":[
+          [1, 0],
+          [0, 1]
+        ]
+      },
+      {
+        "type":"ope",
+        "contents":"="
+      },
+      {
+        "type": "matrix",
+        "nrow": 2,
+        "ncol": 2,
+        "contents":[
+          ["prob_1", "prob_2"],
+          ["prob_3", "prob_4"]
+        ]
+      }
+    ],
+    "prob":{
+      "prob_1": "3",
+      "prob_2": "0",
+      "prob_3": "0",
+      "prob_4": "3"
+    }
+},
+{
+    "id": "map_3-1_monster_2_prob_1",
+    "message": {
+      "pos":{
+        "x": 64,
+        "y": 64
+      },
+      "text": "引き算とスカラー倍でこうげきだ！（上下のボタンで黄色の値が増減するぞ）"
+    },
+    "pos":{
+      "x": 128,
+      "y": 160
+    },
+    "mathexp": [
+      {
+        "type":"num",
+        "contents":5,
+        "elasticity": 0.5
+      },
+      {
+        "type": "matrix",
+        "nrow": 2,
+        "ncol": 2,
+        "contents":[
+          [1, 1],
+          [1, 1]
+        ]
+      },
+      {
+        "type":"ope",
+        "contents":"-"
+      },
+      {
+        "type":"num",
+        "contents":2,
+        "elasticity": 0.5
+      },
+      {
+        "type": "matrix",
+        "nrow": 2,
+        "ncol": 2,
+        "contents":[
+          [0, 1],
+          [0, 1]
+        ]
+      },
+      {
+        "type":"ope",
+        "contents":"="
+      },
+      {
+        "type": "matrix",
+        "nrow": 2,
+        "ncol": 2,
+        "contents":[
+          ["prob_1", "prob_2"],
+          ["prob_3", "prob_4"]
+        ]
+      }
+    ],
+    "prob":{
+      "prob_1": "5",
+      "prob_2": "3",
+      "prob_3": "5",
+      "prob_4": "3"
+    }
+}]

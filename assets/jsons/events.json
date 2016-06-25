@@ -1,0 +1,59 @@
+{
+    "hyaline": {
+        "width": 32,
+        "height": 32,
+        "pos": {
+            "x": 0,
+            "y": 0
+        },
+        "sprite": {
+            "file": "assets/images/hyaline.png",
+            "width": 32,
+            "height": 32,
+            "length": 1,
+            "alpha": 1,
+            "frame": 0,
+            "frames": null,
+            "fps": 1
+        }
+    },
+    "treasureBox": {
+            "width": 32,
+            "height": 32,
+            "pos": {
+                "x": 0,
+                "y": 0
+            },
+            "sprite": {
+                "file": "assets/images/treasure_box.png",
+                "width": 32,
+                "height": 32,
+                "length": 2,
+                "alpha": 1,
+                "frame": 0,
+                "frames": {
+                      "close": [0],
+                      "open": [1]
+                    },
+                "fps": 1
+            }
+        },
+    "white": {
+        "width": 800,
+        "height": 600,
+        "pos": {
+            "x": 0,
+            "y": 0
+        },
+        "sprite": {
+            "file": "assets/images/white.png",
+            "width": 800,
+            "height": 600,
+            "length": 1,
+            "alpha": 1,
+            "frame": 0,
+            "frames": null,
+            "fps": 1
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "fontfamily":{
+    "win": "游ゴシック",
+    "android": "Droid Sans Japanese",
+    "mac": "游ゴシック",
+    "iphone": "ヒラギノ角ゴ Pro W3",
+    "others": "Arial"
+  },
+  "fontsize":{
+    "tiny":"12px",
+    "small":"16px",
+    "normal":"20px",
+    "large":"24px",
+    "huge":"28px"
+  }
+}

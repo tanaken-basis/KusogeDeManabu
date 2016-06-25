@@ -1,0 +1,76 @@
+[{
+  "id": "map_1_ova",
+  "name": "オヴァ",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x":  528 , "y":  848
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_ova.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 64,
+    "down": 64,
+    "left": 64,
+    "right": 64
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["おかえり。"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  },{
+    "talkPatternIds": ["scene_2"],
+    "names": ["オヴァ","オヴァ","オヴァ","オヴァ","オヴァ","オヴァ","オヴァ","モモピー"],
+    "contents": [
+      ["はやく村のみんなを助けに行っておくれ。", "みんなは北の橋の方に向かったはずじゃ。", "おまえの怪我はわしが治してやろうかの。"],
+      "healing_1",
+      ["ところで買い物はするかい？"],
+      "shopping_1",
+      ["セーブもするかい？"],
+      "saveData_1S2",
+      ["頑張ってくるんじゃぞ。"],
+      ["（オヴァ有能だな～。）"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+}]

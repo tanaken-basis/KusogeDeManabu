@@ -1,0 +1,124 @@
+[{
+  "id": "map_7_monster_1",
+  "name": "やさしいモンスター",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x":  528 , "y":  912
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_monster_1.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 2,
+    "down":2,
+    "left": 2,
+    "right": 2
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "names": ["やさしいモンスター","やさしいモンスター","やさしいモンスター","モモピー"],
+    "contents": [
+      ["セーブします？"],
+      "saveData_7", ["頑張って！"],
+      ["（とてもやさしいな～。）"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+}, {
+    "id": "map_7_worker_1",
+    "name": "厳格な警備員さん",
+    "display": true,
+    "width": 32,
+    "height": 32,
+    "pos": {
+        "x":  512 , "y":  1904
+    },
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+        "file": "assets/images/npc_worker.png",
+        "width": 32,
+        "height": 32,
+        "length": 12,
+        "alpha": 1,
+        "frame": 0,
+        "frames": {
+            "down": [0, 1, 2],
+            "left": [3, 4, 5],
+            "right": [6, 7, 8],
+            "up": [9, 10, 11],
+            "actions": null
+        },
+        "fps": 6
+    },
+    "stop": false,
+    "velocity": 100,
+    "gait": 0,
+    "movingRange": {
+        "up": 64,
+        "down": 64,
+        "left": 64,
+        "right": 64
+    },
+    "effectiveRange": 38,
+    "talkPatternIndex": null,
+    "talks": [{
+        "talkPatternIds": [""],
+        "contents": [
+            ["ここはナナチャン競技場だ！", "現在、開場中だ！"]
+        ],
+        "charDelays": [
+            [
+                [0.01]
+            ]
+        ],
+        "lineDelays": [
+            [0.1]
+        ],
+        "events": []
+    }, {
+        "talkPatternIds": ["scene_3"],
+        "contents": [
+            ["ここはナナチャン競技場だ！", "現在、閉鎖中だ！"]
+        ],
+        "charDelays": [
+            [
+                [0.01]
+            ]
+        ],
+        "lineDelays": [
+            [0.1]
+        ],
+        "events": []
+    }]
+}]

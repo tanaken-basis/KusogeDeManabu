@@ -1,0 +1,171 @@
+[{
+    "id": "map_2_monster_1_prob_1",
+    "message": {
+      "pos":{
+        "x": 64,
+        "y": 64
+      },
+      "text": "足し算でこうげきだ！！（黄色い　??　の値が上下のボタンで増減するぞ）"
+    },
+    "pos":{
+      "x": 128,
+      "y": 160
+    },
+    "mathexp": [
+      {
+        "type": "matrix",
+        "nrow": 2,
+        "ncol": 2,
+        "contents":[
+          [1, 0],
+          [0, 1]
+        ]
+      },
+      {
+        "type":"ope",
+        "contents":"+"
+      },
+      {
+        "type": "matrix",
+        "nrow": 2,
+        "ncol": 2,
+        "contents":[
+          [1, 0],
+          [0, 1]
+        ]
+      },
+      {
+        "type":"ope",
+        "contents":"="
+      },
+      {
+        "type": "matrix",
+        "nrow": 2,
+        "ncol": 2,
+        "contents":[
+          ["prob_1", "prob_2"],
+          ["prob_3", "prob_4"]
+        ]
+      }
+    ],
+    "prob":{
+      "prob_1": "2",
+      "prob_2": "0",
+      "prob_3": "0",
+      "prob_4": "2"
+    }
+},
+{
+    "id": "sample_1_prob",
+    "message": {
+      "pos":{
+        "x": 64,
+        "y": 64
+      },
+      "text": "足し算でこうげきだ！！（黄色い　??　の値が上下のボタンで増減するぞ）"
+    },
+    "pos":{
+      "x": 128,
+      "y": 256
+    },
+    "mathexp": [
+      {
+        "type": "matrix",
+        "nrow": 2,
+        "ncol": 2,
+        "contents":[
+          [1, 0],
+          [0, 1]
+        ]
+      },
+      {
+        "type":"ope",
+        "contents":"+"
+      },
+      {
+        "type":"num",
+        "contents":"2"
+      },
+      {
+        "type": "matrix",
+        "nrow": 2,
+        "ncol": 2,
+        "contents":[
+          [1, 0],
+          [0, 1]
+        ]
+      },
+      {
+        "type":"ope",
+        "contents":"="
+      },
+      {
+        "type": "matrix",
+        "nrow": 2,
+        "ncol": 2,
+        "contents":[
+          ["prob_1", "prob_2"],
+          ["prob_3", "prob_4"]
+        ]
+      }
+    ],
+    "prob":{
+      "prob_1": "3",
+      "prob_2": "0",
+      "prob_3": "0",
+      "prob_4": "3"
+    }
+},{
+  "id": "sample_2_prob",
+  "pos":{
+    "x": 128,
+    "y": 256
+  },
+  "mathexp": [
+    {
+      "type": "matrix",
+      "nrow": 2,
+      "ncol": 2,
+      "contents":[
+        [1, 0],
+        [0, 1]
+      ]
+    },
+    {
+      "type":"ope",
+      "contents":"+"
+    },
+    {
+      "type":"num",
+      "contents":"2"
+    },
+    {
+      "type": "matrix",
+      "nrow": 2,
+      "ncol": 2,
+      "contents":[
+        [[{"type":"num","contents":2}, {"type":"ope","contents":"x"}, {"type":"prob","contents":"prob_0"}], 0],
+        [[{"type":"num","contents":2}, {"type":"ope","contents":"x"}, {"type":"num","contents":"2"},{"type":"spc", "contents":{"x":20}}], 1]
+      ]
+    },
+    {
+      "type":"ope",
+      "contents":"="
+    },
+    {
+      "type": "matrix",
+      "nrow": 2,
+      "ncol": 2,
+      "contents":[
+        ["prob_1", "prob_2"],
+        ["prob_3", "prob_4"]
+      ]
+    }
+  ],
+  "prob":{
+    "prob_1": "3",
+    "prob_2": "0",
+    "prob_3": "0",
+    "prob_4": "3"
+  }
+  }]

@@ -1,0 +1,58 @@
+[{
+  "id": "map_9-3_monster_1",
+  "name": "やさしい（？）モンスター",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x":  576 , "y":  208
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_monster_1.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 2,
+    "down":2,
+    "left": 2,
+    "right": 2
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["…ついにここまでたどり着いたか。"],
+      ["私は「やさしいモンスター」として", "おまえの行動を全て記録していたのだ。"],
+      ["おまえを評価するために。"],
+      ["そう、私がオニキョージュだ。"],
+      "profOni1Scene5Map9F3Event1AtField"
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+}]

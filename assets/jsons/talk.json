@@ -1,0 +1,68 @@
+{
+    "talk": {
+        "sep":":",
+        "fastReadingDelay": 0.002,
+        "update": {
+            "flag": false,
+            "func": null
+        },
+        "balloon": {
+            "width": 400,
+            "height": 160,
+            "pos": {
+                "x": 200,
+                "y": 416
+            },
+            "sprite": {
+                "file": "assets/images/talk_balloon.png",
+                "width": 352,
+                "height": 160,
+                "length": 1,
+                "alpha": 0.75,
+                "frame": 0,
+                "frames": null,
+                "fps": 1
+            }
+        },
+        "margin": {
+            "x": 16,
+            "y": 8
+        },
+        "lineHeight": 24,
+        "npcIndex": null,
+        "contents": [
+            [""]
+        ],
+        "page": 0,
+        "charDelays": [
+            [
+                [0.01]
+            ]
+        ],
+        "lineDelays": [
+            [0.1]
+        ],
+        "caret": {
+            "width": 28,
+            "height": 28,
+            "pos": {
+                "x": 560,
+                "y": 544
+            },
+            "sprite": {
+                "file": "assets/images/talk_caret.png",
+                "width": 28,
+                "height": 28,
+                "length": 3,
+                "alpha": 1,
+                "frame": 2,
+                "frames": {
+                    "blink": [2, 0],
+                    "stop": [0],
+                    "invisible": [2]
+                },
+                "fps": 4
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+[{
+    "id": "map_2_monster_1_prob_3",
+    "message": {
+      "pos":{
+        "x": 64,
+        "y": 64
+      },
+      "text": "行列式で攻撃だ！"
+    },
+    "pos":{
+      "x": 256,
+      "y": 160
+    },
+    "mathexp": [
+      {
+        "type":"text",
+        "contents":"det",
+        "elasticity": 0.6
+      },
+      {
+        "type": "matrix",
+        "nrow": 2,
+        "ncol": 2,
+        "contents":[
+          [2, 3],
+          [3, 6]
+        ]
+      },
+      {
+        "type":"ope",
+        "contents":"="
+      },
+      {
+        "type":"prob",
+        "contents":"prob_1"
+      }
+    ],
+    "prob":{
+      "prob_1": "3"
+    }
+}]

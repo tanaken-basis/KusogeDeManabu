@@ -1,0 +1,50 @@
+{
+    "saveDataText":"セーブデータ",
+    "subMenu": {
+        "update": {
+            "flag": false,
+            "func": null
+        },
+        "balloon": {
+            "width": 416,
+            "height": 320,
+            "pos": {
+                "x": 192,
+                "y": 32
+            },
+            "sprite": {
+                "file": "assets/images/sub_menu_balloon.png",
+                "width": 416,
+                "height": 320,
+                "length": 1,
+                "alpha": 0.75,
+                "frame": 0,
+                "frames": null,
+                "fps": 1
+            }
+        },
+        "choice": {
+            "margin": {
+                "x": 8,
+                "y": 12
+            },
+            "padding": {
+                "x": 8,
+                "y": 4
+            },
+            "highlight": {
+                "stop": false,
+                "width": 400,
+                "height": 32,
+                "sprite": null,
+                "move": {
+                    "x": 0,
+                    "y": 32
+                },
+                "initIndex": 0,
+                "index": 0
+            },
+            "options": []
+        }
+    }
+}

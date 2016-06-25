@@ -1,0 +1,238 @@
+[{
+  "id": "map_6-2_monster_1",
+  "name": "やさしいモンスター",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x":  976 , "y":  496
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_monster_1.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 2,
+    "down":2,
+    "left": 2,
+    "right": 2
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "names": ["やさしいモンスター","やさしいモンスター","やさしいモンスター","モモピー"],
+    "contents": [
+      ["セーブします？"],
+      "saveData_6F2", ["頑張って！"],
+      ["（やっぱりやさしいな～。）"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+}, {
+  "id": "map_6-2_monster_2",
+  "name": "やや面倒なモンスター",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x":  928 , "y":  848
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_monster_2.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 2,
+    "down":2,
+    "left": 2,
+    "right": 2
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["戦う流れだよな？"],
+      "yesNoMap6F2Monster2AtField",
+      ["空気が読めないのか？"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+}, {
+  "id": "map_6-2_monster_3",
+  "name": "まあまあ面倒なモンスター",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x":  896 , "y":  304
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_monster_2.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 2,
+    "down":2,
+    "left": 2,
+    "right": 2
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["いくさ？"],
+      "yesNoMap6F2Monster3AtField",
+      ["にげ？"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+}, {
+  "id": "map_6-2_monster_Boss",
+  "name": "面倒なモンスターのボス",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x":  240 , "y":  160
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_monster_2.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 2,
+    "down":2,
+    "left": 2,
+    "right": 2
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["戦うか？"],
+      "yesNoMap6F2MonsterBossAtField",
+      ["トンネルは便利だな～。"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }, {
+    "talkPatternIds": ["scene_2"],
+    "contents": [
+      ["開通したトンネルを最初に通るのは", "もちろんオニキョージュ様だ！", "オニキョージュ様が来るまで待て！", "でも、待ってるのも退屈だから戦うか？"],
+      "yesNoMap6F2MonsterBossScene2AtField",
+      ["オニキョージュ様、遅いな…。"]
+    ],
+    "charDelays": [
+      [
+        [0.02]
+      ]
+    ],
+    "lineDelays": [
+      [0.2]
+    ],
+    "events": []
+  }]
+}]

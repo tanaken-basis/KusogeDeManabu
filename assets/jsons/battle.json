@@ -1,0 +1,160 @@
+{
+    "battleState":{
+      "stateId": null,
+      "monsterId": null,
+      "matrixId": null,
+      "npcId": null,
+      "npcPosMoveX": null,
+      "npcPosMoveY": null,
+      "destructor": null,
+      "firstEndFlag": true
+    },
+    "bottomLeft": {
+        "update": {
+            "flag": false,
+            "func": null
+        },
+        "balloon": {
+            "width": 128,
+            "height": 160,
+            "pos": {
+                "x": 224,
+                "y": 416
+            },
+            "sprite": {
+                "file": "assets/images/battle_bottom_left_balloon.png",
+                "width": 128,
+                "height": 160,
+                "length": 1,
+                "alpha": 0.75,
+                "frame": 0,
+                "frames": null,
+                "fps": 1
+            }
+        },
+        "choice": {
+            "margin": {
+                "x": 8,
+                "y": 12
+            },
+            "padding": {
+                "x": 8,
+                "y": 4
+            },
+            "highlight": {
+                "stop": false,
+                "width": 112,
+                "height": 32,
+                "sprite": null,
+                "move": {
+                    "x": 0,
+                    "y": 32
+                },
+                "initIndex": 0,
+                "index": 0
+            },
+            "options": [{
+                "label": {
+                    "text": "こうげき",
+                    "alpha": 1
+                },
+                "func": "attackAtBattle",
+                "args": null
+            }, {
+                "label": {
+                    "text": "どうぐ",
+                    "alpha": 1
+                },
+                "func": "itemsAtBattle",
+                "args": null
+            }, {
+                "label": {
+                    "text": "にげる",
+                    "alpha": 1
+                },
+                "func": "escapeAtBattle",
+                "args": null
+            }]
+        }
+    },
+    "enemies": {
+        "choice": {}
+    },
+    "bottomRight": {
+        "balloon": {
+            "width": 224,
+            "height": 160,
+            "pos": {
+                "x": 352,
+                "y": 416
+            },
+            "sprite": {
+                "file": "assets/images/battle_bottom_right_balloon.png",
+                "width": 224,
+                "height": 160,
+                "length": 1,
+                "alpha": 0.75,
+                "frame": 0,
+                "frames": null,
+                "fps": 1
+            }
+        }
+    },
+    "subMenu": {
+        "update": {
+            "flag": false,
+            "func": null
+        },
+        "balloon": {
+            "width": 416,
+            "height": 320,
+            "pos": {
+                "x": 192,
+                "y": 32
+            },
+            "sprite": {
+                "file": "assets/images/sub_menu_balloon.png",
+                "width": 416,
+                "height": 320,
+                "length": 1,
+                "alpha": 0.75,
+                "frame": 0,
+                "frames": null,
+                "fps": 1
+            }
+        },
+        "choice": {
+            "margin": {
+                "x": 8,
+                "y": 12
+            },
+            "padding": {
+                "x": 8,
+                "y": 4
+            },
+            "highlight": {
+                "stop": false,
+                "width": 320,
+                "height": 32,
+                "sprite": null,
+                "move": {
+                      "x": 0,
+                      "y": 32
+                },
+                "initIndex": 0,
+                "index": 0
+            },
+            "options": []
+        },
+        "items": {
+            "highlight": {
+                "width": 320,
+                "height": 32,
+                "move": {
+                      "x": 0,
+                      "y": 32
+                }
+            }
+        }
+    }
+}

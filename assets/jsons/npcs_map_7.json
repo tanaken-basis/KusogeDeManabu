@@ -1,0 +1,523 @@
+[{
+  "id": "map_7_monster_1",
+  "name": "やさしいモンスター",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x":  528 , "y":  912
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_monster_1.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 2,
+    "down":2,
+    "left": 2,
+    "right": 2
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "names": ["やさしいモンスター","やさしいモンスター","やさしいモンスター","モモピー"],
+    "contents": [
+      ["セーブします？"],
+      "saveData_7", ["頑張って！"],
+      ["（とてもやさしいな～。）"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+}, {
+    "id": "map_7_worker_1",
+    "name": "厳格な警備員さん",
+    "display": true,
+    "width": 32,
+    "height": 32,
+    "pos": {
+        "x":  512 , "y":  1904
+    },
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+        "file": "assets/images/npc_worker.png",
+        "width": 32,
+        "height": 32,
+        "length": 12,
+        "alpha": 1,
+        "frame": 0,
+        "frames": {
+            "down": [0, 1, 2],
+            "left": [3, 4, 5],
+            "right": [6, 7, 8],
+            "up": [9, 10, 11],
+            "actions": null
+        },
+        "fps": 6
+    },
+    "stop": false,
+    "velocity": 100,
+    "gait": 0,
+    "movingRange": {
+        "up": 64,
+        "down": 64,
+        "left": 64,
+        "right": 64
+    },
+    "effectiveRange": 38,
+    "talkPatternIndex": null,
+    "talks": [{
+        "talkPatternIds": [""],
+        "contents": [
+            ["ここはナナチャン競技場だ！", "現在、開場中だ！"]
+        ],
+        "charDelays": [
+            [
+                [0.01]
+            ]
+        ],
+        "lineDelays": [
+            [0.1]
+        ],
+        "events": []
+    }, {
+        "talkPatternIds": ["scene_3"],
+        "contents": [
+            ["ここはナナチャン競技場だ！", "現在、閉鎖中だ！"]
+        ],
+        "charDelays": [
+            [
+                [0.01]
+            ]
+        ],
+        "lineDelays": [
+            [0.1]
+        ],
+        "events": []
+    }]
+},
+{
+  "id": "map_7_monster_2",
+  "name": "清く儚いモンスター",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x":  640 , "y":  1488
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_monster_2.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 2,
+    "down":2,
+    "left": 2,
+    "right": 2
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["初戦だよ？"],
+      "yesNoMap7Monster2AtField",
+      ["再チャレンジ待ってるよ。"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+},
+{
+  "id": "map_7_monster_3",
+  "name": "清々しく儚いモンスター",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x":  288 , "y":  1040
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_monster_2.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 2,
+    "down":2,
+    "left": 2,
+    "right": 2
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["第2回戦だよ？"],
+      "yesNoMap7Monster3AtField",
+      ["再チャレンジ待ってるよ。"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+},
+{
+  "id": "map_7_monster_4",
+  "name": "潔く儚いモンスター",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x":  448 , "y":  752
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_monster_2.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 2,
+    "down":2,
+    "left": 2,
+    "right": 2
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["天下一行列大会もクライマックスだぞ！", "戦うぞ？"],
+      "yesNoMap7Monster4AtField",
+      ["再チャレンジ待ってるよ。"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+},
+{
+  "id": "map_7_monster_Boss",
+  "name": "儚いモンスターのボス",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x":  576 , "y":  496
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_monster_2.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 2,
+    "down":2,
+    "left": 2,
+    "right": 2
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["戦うぞ！"],
+      "yesNoMap7MonsterBossAtField",
+      ["なぜ戦わない！"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }, {
+    "talkPatternIds": ["scene_4"],
+    "contents": [
+      ["さあ、私と戦うのだ！"],
+      "yesNoMap7MonsterBossScene4AtField",
+      ["なぜ戦わない！"]
+    ],
+    "charDelays": [
+      [
+        [0.02]
+      ]
+    ],
+    "lineDelays": [
+      [0.2]
+    ],
+    "events": []
+  }]
+}, {
+    "id": "map_7_machibito_1",
+    "name": "弱すぎた大会参加者",
+    "display": true,
+    "width": 32,
+    "height": 32,
+    "pos": {
+        "x":  752 , "y":  1584
+    },
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+        "file": "assets/images/npc_machibito_2.png",
+        "width": 32,
+        "height": 32,
+        "length": 12,
+        "alpha": 1,
+        "frame": 0,
+        "frames": {
+            "down": [0, 1, 2],
+            "left": [3, 4, 5],
+            "right": [6, 7, 8],
+            "up": [9, 10, 11],
+            "actions": null
+        },
+        "fps": 6
+    },
+    "stop": false,
+    "velocity": 100,
+    "gait": 0,
+    "movingRange": {
+        "up": 64,
+        "down": 64,
+        "left": 64,
+        "right": 64
+    },
+    "effectiveRange": 38,
+    "talkPatternIndex": null,
+    "talks": [{
+        "talkPatternIds": [""],
+        "contents": [
+            ["だめだ…。", "全然勝てない。"]
+        ],
+        "charDelays": [
+            [
+                [0.01]
+            ]
+        ],
+        "lineDelays": [
+            [0.1]
+        ],
+        "events": []
+    }]
+}, {
+    "id": "map_7_machibito_2",
+    "name": "頑張っている大会参加者",
+    "display": true,
+    "width": 32,
+    "height": 32,
+    "pos": {
+        "x":  432 , "y":  1104
+    },
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+        "file": "assets/images/npc_machibito_1.png",
+        "width": 32,
+        "height": 32,
+        "length": 12,
+        "alpha": 1,
+        "frame": 0,
+        "frames": {
+            "down": [0, 1, 2],
+            "left": [3, 4, 5],
+            "right": [6, 7, 8],
+            "up": [9, 10, 11],
+            "actions": null
+        },
+        "fps": 6
+    },
+    "stop": false,
+    "velocity": 100,
+    "gait": 0,
+    "movingRange": {
+        "up": 64,
+        "down": 64,
+        "left": 64,
+        "right": 64
+    },
+    "effectiveRange": 38,
+    "talkPatternIndex": null,
+    "talks": [{
+        "talkPatternIds": [""],
+        "contents": [
+            ["もう少しで勝てそうなんだけど…。"]
+        ],
+        "charDelays": [
+            [
+                [0.01]
+            ]
+        ],
+        "lineDelays": [
+            [0.1]
+        ],
+        "events": []
+    }]
+}, {
+    "id": "map_7_machibito_3",
+    "name": "諦め気味の大会参加者",
+    "display": true,
+    "width": 32,
+    "height": 32,
+    "pos": {
+        "x":  176 , "y":  816
+    },
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+        "file": "assets/images/npc_machibito_2.png",
+        "width": 32,
+        "height": 32,
+        "length": 12,
+        "alpha": 1,
+        "frame": 0,
+        "frames": {
+            "down": [0, 1, 2],
+            "left": [3, 4, 5],
+            "right": [6, 7, 8],
+            "up": [9, 10, 11],
+            "actions": null
+        },
+        "fps": 6
+    },
+    "stop": false,
+    "velocity": 100,
+    "gait": 0,
+    "movingRange": {
+        "up": 64,
+        "down": 64,
+        "left": 64,
+        "right": 64
+    },
+    "effectiveRange": 38,
+    "talkPatternIndex": null,
+    "talks": [{
+        "talkPatternIds": [""],
+        "contents": [
+            ["分からん。もうだめだ～。"]
+        ],
+        "charDelays": [
+            [
+                [0.01]
+            ]
+        ],
+        "lineDelays": [
+            [0.1]
+        ],
+        "events": []
+    }]
+}]

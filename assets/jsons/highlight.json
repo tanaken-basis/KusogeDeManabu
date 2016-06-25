@@ -1,0 +1,27 @@
+{
+    "highlight": {
+        "width": 32,
+        "height": 32,
+        "pos": {
+          "x": 0,
+          "y": 0
+        },
+        "sprite": {
+            "file": "assets/images/highlight.png",
+            "width": 32,
+            "height": 32,
+            "length": 3,
+            "alpha": 1,
+            "over": 1,
+            "out": 0,
+            "down": 2,
+            "frame": 0,
+            "frames": {
+                "blink": [0, 1],
+                "stop": [1],
+                "invisible": [0]
+            },
+            "fps": 4
+        }
+    }
+}

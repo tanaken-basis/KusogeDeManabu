@@ -1,0 +1,232 @@
+[{
+  "id": "map_5_machibito_1",
+  "name": "初々しい村人",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x":  560 , "y":  848
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_machibito_2.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 64,
+    "down": 64,
+    "left": 64,
+    "right": 64
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["ここはロクゴー村です。"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  },{
+    "talkPatternIds": ["scene_2"],
+    "contents": [
+      ["ここはロクゴー村です。", "まだできたばかりの新しい村です。"],
+      ["本当はもっと人口が多いのですが、", "みんな北の「サンパチトンネル」の工事", "に出かけてしまっているのです。"],
+      ["そういえば、見慣れない集団が", "サンパチトンネルに向かっていくのを", "見たような気がするのですが…。"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+}, {
+  "id": "map_5_recorder_1",
+  "name": "初々しい記録人",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x":  688 , "y":  720
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_rec.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 64,
+    "down": 64,
+    "left": 64,
+    "right": 64
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["セーブしますか？"],
+      "saveData_5", ["頑張ってください！"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+}, {
+  "id": "map_5_doctor_1",
+  "name": "初々しいお医者さん",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x":  784 , "y":  656
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_doctor.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 64,
+    "down": 64,
+    "left": 64,
+    "right": 64
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["治療します。"],
+      "healing_1", ["お大事に。"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+}, {
+  "id": "map_5_doctor_1",
+  "name": "初々しい商人",
+  "display": true,
+  "width": 32,
+  "height": 32,
+  "pos": {
+    "x":  208 , "y":  688
+  },
+  "initFrameState": "down",
+  "frameState": "down",
+  "sprite": {
+    "file": "assets/images/npc_merchant.png",
+    "width": 32,
+    "height": 32,
+    "length": 12,
+    "alpha": 1,
+    "frame": 0,
+    "frames": {
+      "down": [0, 1, 2],
+      "left": [3, 4, 5],
+      "right": [6, 7, 8],
+      "up": [9, 10, 11],
+      "actions": null
+    },
+    "fps": 6
+  },
+  "stop": false,
+  "velocity": 100,
+  "gait": 0,
+  "movingRange": {
+    "up": 64,
+    "down": 64,
+    "left": 64,
+    "right": 64
+  },
+  "effectiveRange": 38,
+  "talkPatternIndex": null,
+  "talks": [{
+    "talkPatternIds": [""],
+    "contents": [
+      ["いらっしゃいませ。"],
+      "shopping_5", ["またのご利用お待ちしております。"]
+    ],
+    "charDelays": [
+      [
+        [0.01]
+      ]
+    ],
+    "lineDelays": [
+      [0.1]
+    ],
+    "events": []
+  }]
+}]

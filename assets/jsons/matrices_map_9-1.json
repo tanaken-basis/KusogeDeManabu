@@ -1,0 +1,70 @@
+[{
+    "id": "map_9-1_monster_2_prob_1",
+    "message": {
+      "pos":{
+        "x": 64,
+        "y": 64
+      },
+      "text": "スカラー倍と足し算と掛け算でこうげきだ！"
+    },
+    "pos":{
+      "x": 128,
+      "y": 160
+    },
+    "mathexp": [
+      {
+        "type":"num",
+        "contents":"2",
+        "elasticity": 0.5
+      },
+      {
+        "type": "matrix",
+        "nrow": 2,
+        "ncol": 2,
+        "contents":[
+          [1, 1],
+          [1, 1]
+        ]
+      },
+      {
+        "type":"ope",
+        "contents":"+"
+      },{
+        "type": "matrix",
+        "nrow": 2,
+        "ncol": 2,
+        "contents":[
+          [1, 1],
+          [1, 1]
+        ]
+      },
+      {
+        "type": "matrix",
+        "nrow": 2,
+        "ncol": 2,
+        "contents":[
+          [1, 3],
+          [5, 7]
+        ]
+      },
+      {
+        "type":"ope",
+        "contents":"="
+      },
+      {
+        "type": "matrix",
+        "nrow": 2,
+        "ncol": 2,
+        "contents":[
+          ["prob_1", "prob_2"],
+          ["prob_3", "prob_4"]
+        ]
+      }
+    ],
+    "prob":{
+      "prob_1": "8",
+      "prob_2": "12",
+      "prob_3": "8",
+      "prob_4": "12"
+    }
+}]

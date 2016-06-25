@@ -1,0 +1,199 @@
+{
+    "update": {
+        "flag": false,
+        "func": null
+    },
+    "blackboard": {
+        "balloon": {
+            "width": 736,
+            "height": 352,
+            "pos": {
+                "x": 32,
+                "y": 32
+            },
+            "sprite": {
+                "file": "assets/images/blackboard.png",
+                "width": 736,
+                "height": 352,
+                "length": 1,
+                "alpha": 0.75,
+                "over": 0,
+                "out": 0,
+                "down": 0,
+                "frame": 0,
+                "frames": null,
+                "fps": 1
+            }
+        }
+    },
+    "holder": {
+        "balloon": {
+            "width": 736,
+            "height": 16,
+            "pos": {
+                "x": 32,
+                "y": 384
+            },
+            "sprite": {
+                "file": "assets/images/holder.png",
+                "width": 736,
+                "height": 16,
+                "length": 1,
+                "alpha": 0.75,
+                "over": 0,
+                "out": 0,
+                "down": 0,
+                "frame": 0,
+                "frames": null,
+                "fps": 1
+            }
+        }
+    },
+    "sotugyo": {
+        "width": 32,
+        "height": 32,
+        "pos": {
+            "x": 0,
+            "y": 0
+        },
+        "sprite": {
+            "file": "assets/images/sotugyo.png",
+            "width": 32,
+            "height": 32,
+            "length": 1,
+            "alpha": 1,
+            "over": 0,
+            "out": 0,
+            "down": 0,
+            "frame": 0,
+            "frames": null,
+            "fps": 1
+        }
+    },
+    "chalk": {
+        "width": 32,
+        "height": 8,
+        "pos": {
+            "x": 0,
+            "y": 0
+        },
+        "sprite": {
+            "file": "assets/images/chalk.png",
+            "width": 32,
+            "height": 8,
+            "length": 1,
+            "alpha": 1,
+            "over": 0,
+            "out": 0,
+            "down": 0,
+            "frame": 0,
+            "frames": null,
+            "fps": 1
+        }
+    },
+    "eraser": {
+        "width": 32,
+        "height": 16,
+        "pos": {
+            "x": 0,
+            "y": 0
+        },
+        "sprite": {
+            "file": "assets/images/eraser.png",
+            "width": 32,
+            "height": 16,
+            "length": 1,
+            "alpha": 1,
+            "over": 0,
+            "out": 0,
+            "down": 0,
+            "frame": 0,
+            "frames": null,
+            "fps": 1
+        }
+    },
+    "bra": {
+        "width": 80,
+        "height": 200,
+        "pos": {
+            "x": 0,
+            "y": 0
+        },
+        "sprite": {
+            "file": "assets/images/bra.png",
+            "width": 80,
+            "height": 200,
+            "length": 1,
+            "alpha": 1,
+            "over": 0,
+            "out": 0,
+            "down": 0,
+            "frame": 0,
+            "frames": null,
+            "fps": 1
+        }
+    },
+    "ket": {
+        "width": 80,
+        "height": 200,
+        "pos": {
+            "x": 0,
+            "y": 0
+        },
+        "sprite": {
+            "file": "assets/images/ket.png",
+            "width": 80,
+            "height": 200,
+            "length": 1,
+            "alpha": 1,
+            "over": 0,
+            "out": 0,
+            "down": 0,
+            "frame": 0,
+            "frames": null,
+            "fps": 1
+        }
+    },
+    "ok": {
+        "width": 32,
+        "height": 32,
+        "pos": {
+            "x": 0,
+            "y": 0
+        },
+        "sprite": {
+            "file": "assets/images/ok.png",
+            "width": 32,
+            "height": 32,
+            "length": 1,
+            "alpha": 1,
+            "over": 0,
+            "out": 0,
+            "down": 0,
+            "frame": 0,
+            "frames": null,
+            "fps": 1
+        }
+    },
+    "ng": {
+        "width": 32,
+        "height": 32,
+        "pos": {
+            "x": 0,
+            "y": 0
+        },
+        "sprite": {
+            "file": "assets/images/ng.png",
+            "width": 32,
+            "height": 32,
+            "length": 1,
+            "alpha": 1,
+            "over": 0,
+            "out": 0,
+            "down": 0,
+            "frame": 0,
+            "frames": null,
+            "fps": 1
+        }
+    }
+}

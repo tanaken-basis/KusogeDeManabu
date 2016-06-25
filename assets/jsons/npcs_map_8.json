@@ -1,0 +1,470 @@
+[{
+    "id": "map_8_recorder_1",
+    "name": "おどおどした記録人",
+    "display": true,
+    "width": 32,
+    "height": 32,
+    "pos": {
+        "x": 848,
+        "y": 784
+    },
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+        "file": "assets/images/npc_rec.png",
+        "width": 32,
+        "height": 32,
+        "length": 12,
+        "alpha": 1,
+        "frame": 0,
+        "frames": {
+            "down": [0, 1, 2],
+            "left": [3, 4, 5],
+            "right": [6, 7, 8],
+            "up": [9, 10, 11],
+            "actions": null
+        },
+        "fps": 6
+    },
+    "stop": false,
+    "velocity": 100,
+    "gait": 0,
+    "movingRange": {
+        "up": 2,
+        "down": 2,
+        "left": 2,
+        "right": 2
+    },
+    "effectiveRange": 38,
+    "talkPatternIndex": null,
+    "talks": [{
+        "talkPatternIds": [""],
+        "contents": [
+            ["セーブとかしちゃったりします？"],
+            "saveData_8", ["頑張っちゃったりしてください。"]
+        ],
+        "charDelays": [
+            [
+                [0.01]
+            ]
+        ],
+        "lineDelays": [
+            [0.1]
+        ],
+        "events": []
+    }]
+}, {
+    "id": "map_8_doctor_1",
+    "name": "意外と経験豊富なお医者さん",
+    "display": true,
+    "width": 32,
+    "height": 32,
+    "pos": {
+        "x": 272,
+        "y": 464
+    },
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+        "file": "assets/images/npc_doctor.png",
+        "width": 32,
+        "height": 32,
+        "length": 12,
+        "alpha": 1,
+        "frame": 0,
+        "frames": {
+            "down": [0, 1, 2],
+            "left": [3, 4, 5],
+            "right": [6, 7, 8],
+            "up": [9, 10, 11],
+            "actions": null
+        },
+        "fps": 6
+    },
+    "stop": false,
+    "velocity": 100,
+    "gait": 0,
+    "movingRange": {
+        "up": 64,
+        "down": 64,
+        "left": 64,
+        "right": 64
+    },
+    "effectiveRange": 38,
+    "talkPatternIndex": null,
+    "talks": [{
+        "talkPatternIds": [""],
+        "contents": [
+            ["治療するし。"],
+            "healing_1", ["治療したし。"]
+        ],
+        "charDelays": [
+            [
+                [0.01]
+            ]
+        ],
+        "lineDelays": [
+            [0.1]
+        ],
+        "events": []
+    }]
+}, {
+    "id": "map_5_merchant_1",
+    "name": "怯え切った商人",
+    "display": true,
+    "width": 32,
+    "height": 32,
+    "pos": {
+        "x": 848,
+        "y": 368
+    },
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+        "file": "assets/images/npc_merchant.png",
+        "width": 32,
+        "height": 32,
+        "length": 12,
+        "alpha": 1,
+        "frame": 0,
+        "frames": {
+            "down": [0, 1, 2],
+            "left": [3, 4, 5],
+            "right": [6, 7, 8],
+            "up": [9, 10, 11],
+            "actions": null
+        },
+        "fps": 6
+    },
+    "stop": false,
+    "velocity": 100,
+    "gait": 0,
+    "movingRange": {
+        "up": 64,
+        "down": 64,
+        "left": 64,
+        "right": 64
+    },
+    "effectiveRange": 38,
+    "talkPatternIndex": null,
+    "talks": [{
+        "talkPatternIds": [""],
+        "contents": [
+            ["……いらっしゃいませ。"],
+            "shopping_8", ["…どうも。"]
+        ],
+        "charDelays": [
+            [
+                [0.01]
+            ]
+        ],
+        "lineDelays": [
+            [0.1]
+        ],
+        "events": []
+    }]
+}, {
+    "id": "map_9_machibito_1",
+    "name": "電話好きの村人",
+    "display": true,
+    "width": 32,
+    "height": 32,
+    "pos": {
+        "x": 528,
+        "y": 112
+    },
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+        "file": "assets/images/npc_machibito_1.png",
+        "width": 32,
+        "height": 32,
+        "length": 12,
+        "alpha": 1,
+        "frame": 0,
+        "frames": {
+            "down": [0, 1, 2],
+            "left": [3, 4, 5],
+            "right": [6, 7, 8],
+            "up": [9, 10, 11],
+            "actions": null
+        },
+        "fps": 6
+    },
+    "stop": false,
+    "velocity": 100,
+    "gait": 0,
+    "movingRange": {
+        "up": 64,
+        "down": 64,
+        "left": 64,
+        "right": 64
+    },
+    "effectiveRange": 38,
+    "talkPatternIndex": null,
+    "talks": [{
+        "talkPatternIds": [""],
+        "contents": [
+            ["また電話来ないかな～。"]
+        ],
+        "charDelays": [
+            [
+                [0.01]
+            ]
+        ],
+        "lineDelays": [
+            [0.1]
+        ],
+        "events": []
+    }, {
+        "talkPatternIds": ["scene_3"],
+        "names": ["電話好きの村人(電話中)", "電話好きの村人(電話中)", "電話好きの村人(電話中)", "電話好きの村人(電話中)", "電話好きの村人(電話中)"],
+        "contents": [
+            ["あ、もしもし？", "なんだって？"],
+            ["ナナチャン競技場で", "天下一行列大会が始まったって！？"],
+            ["しかも優勝賞品がシケンの剣だって？"],
+            ["ああ、うん、ありがとう。", "じゃあ、またね。"],
+            "info1Scene3Map8Event1AtField"
+        ],
+        "charDelays": [
+            [
+                [0.01]
+            ]
+        ],
+        "lineDelays": [
+            [0.1]
+        ],
+        "events": []
+    }, {
+        "talkPatternIds": ["scene_4"],
+        "contents": [
+            ["ナナチャン競技場で", "天下一行列大会が始まったらしいよ～。"],
+            ["優勝賞品がシケンの剣らしいよ～。"]
+        ],
+        "charDelays": [
+            [
+                [0.01]
+            ]
+        ],
+        "lineDelays": [
+            [0.1]
+        ],
+        "events": []
+    }]
+}, {
+    "id": "map_9_machibito_2",
+    "name": "物知り気味の村人",
+    "display": true,
+    "width": 32,
+    "height": 32,
+    "pos": {
+        "x": 144,
+        "y": 720
+    },
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+        "file": "assets/images/npc_machibito_2.png",
+        "width": 32,
+        "height": 32,
+        "length": 12,
+        "alpha": 1,
+        "frame": 0,
+        "frames": {
+            "down": [0, 1, 2],
+            "left": [3, 4, 5],
+            "right": [6, 7, 8],
+            "up": [9, 10, 11],
+            "actions": null
+        },
+        "fps": 6
+    },
+    "stop": false,
+    "velocity": 100,
+    "gait": 0,
+    "movingRange": {
+        "up": 64,
+        "down": 64,
+        "left": 64,
+        "right": 64
+    },
+    "effectiveRange": 38,
+    "talkPatternIndex": null,
+    "talks": [{
+        "talkPatternIds": [""],
+        "contents": [
+            ["ソトゥギョーの書はオニキョージュが", "いっぱい持っているらしいよ。"],
+            ["オニキョージュは、「オニジュータワー」", "に住んでいるみたいだよ。"],
+            ["でも、オニジュータワーに入るには", "「レポートの勾玉」", "「シュッセキの鏡」", "「シケンの剣」", "のいわゆる「三種の神器」が必要だよ。"]
+        ],
+        "charDelays": [
+            [
+                [0.01]
+            ]
+        ],
+        "lineDelays": [
+            [0.1]
+        ],
+        "events": []
+    }]
+}, {
+    "id": "map_9_machibito_3",
+    "name": "情報通の村人",
+    "display": true,
+    "width": 32,
+    "height": 32,
+    "pos": {
+        "x": 752,
+        "y": 528
+    },
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+        "file": "assets/images/npc_machibito_2.png",
+        "width": 32,
+        "height": 32,
+        "length": 12,
+        "alpha": 1,
+        "frame": 0,
+        "frames": {
+            "down": [0, 1, 2],
+            "left": [3, 4, 5],
+            "right": [6, 7, 8],
+            "up": [9, 10, 11],
+            "actions": null
+        },
+        "fps": 6
+    },
+    "stop": false,
+    "velocity": 100,
+    "gait": 0,
+    "movingRange": {
+        "up": 64,
+        "down": 64,
+        "left": 64,
+        "right": 64
+    },
+    "effectiveRange": 38,
+    "talkPatternIndex": null,
+    "talks": [{
+        "talkPatternIds": [""],
+        "contents": [
+            ["ここから川を渡って南西にある", "「ナナチャン競技場」で", "「天下一行列大会」みたいな", "イベントがあったりするんだ。"]
+        ],
+        "charDelays": [
+            [
+                [0.01]
+            ]
+        ],
+        "lineDelays": [
+            [0.1]
+        ],
+        "events": []
+    }]
+}, {
+    "id": "map_9_machibito_4",
+    "name": "悟り気味の村人",
+    "display": true,
+    "width": 32,
+    "height": 32,
+    "pos": {
+        "x":  624 , "y":  880
+    },
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+        "file": "assets/images/npc_machibito_1.png",
+        "width": 32,
+        "height": 32,
+        "length": 12,
+        "alpha": 1,
+        "frame": 0,
+        "frames": {
+            "down": [0, 1, 2],
+            "left": [3, 4, 5],
+            "right": [6, 7, 8],
+            "up": [9, 10, 11],
+            "actions": null
+        },
+        "fps": 6
+    },
+    "stop": false,
+    "velocity": 100,
+    "gait": 0,
+    "movingRange": {
+        "up": 64,
+        "down": 64,
+        "left": 64,
+        "right": 64
+    },
+    "effectiveRange": 38,
+    "talkPatternIndex": null,
+    "talks": [{
+        "talkPatternIds": [""],
+        "contents": [
+            ["ここはイレブン村。", "オニキョージュの住み家に一番近い村。"]
+        ],
+        "charDelays": [
+            [
+                [0.01]
+            ]
+        ],
+        "lineDelays": [
+            [0.1]
+        ],
+        "events": []
+    }]
+}, {
+    "id": "map_9_machibito_5",
+    "name": "目立たない村人",
+    "display": true,
+    "width": 32,
+    "height": 32,
+    "pos": {
+        "x":  112 , "y":  304
+    },
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+        "file": "assets/images/npc_machibito_1.png",
+        "width": 32,
+        "height": 32,
+        "length": 12,
+        "alpha": 1,
+        "frame": 0,
+        "frames": {
+            "down": [0, 1, 2],
+            "left": [3, 4, 5],
+            "right": [6, 7, 8],
+            "up": [9, 10, 11],
+            "actions": null
+        },
+        "fps": 6
+    },
+    "stop": false,
+    "velocity": 100,
+    "gait": 0,
+    "movingRange": {
+        "up": 64,
+        "down": 64,
+        "left": 64,
+        "right": 64
+    },
+    "effectiveRange": 38,
+    "talkPatternIndex": null,
+    "talks": [{
+        "talkPatternIds": [""],
+        "contents": [
+            ["オニキョージュ様はソトゥギョーの書の","価値を暴落させないための活動を", "なさっている立派な方なのですよ。"]
+        ],
+        "charDelays": [
+            [
+                [0.01]
+            ]
+        ],
+        "lineDelays": [
+            [0.1]
+        ],
+        "events": []
+    }]
+}]

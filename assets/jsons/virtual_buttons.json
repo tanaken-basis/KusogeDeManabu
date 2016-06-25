@@ -1,0 +1,164 @@
+{
+    "virtualButtonCrossKey": {
+        "id": "virtual_button_cross_key",
+        "width": 160,
+        "height": 160,
+        "pos": {
+            "x": 32,
+            "y": 416
+        },
+        "sprite": {
+            "id": "virtual_button_cross_key",
+            "file": "assets/images/virtual_button_cross_key.png",
+            "width": 160,
+            "height": 160,
+            "length": 6,
+            "alpha": 0.88,
+            "over": 0,
+            "out": 0,
+            "down": 0,
+            "frame": 0,
+            "frames":  {
+              "blink":[0,5],
+              "stop":[0],
+              "up": [1],
+              "down": [2],
+              "left": [3],
+              "right": [4]
+            },
+            "fps": 1
+        },
+        "xmin": 32,
+        "xmax": 192,
+        "ymin": 416,
+        "ymax": 576,
+        "isDown": false,
+        "isUp": true
+    },
+    "virtualButton1": {
+        "id": "virtual_button_1",
+        "width": 64,
+        "height": 64,
+        "pos": {
+            "x": 608,
+            "y": 480
+        },
+        "sprite": {
+            "id": "virtual_button_1",
+            "file": "assets/images/virtual_button_1.png",
+            "width": 64,
+            "height": 64,
+            "length": 3,
+            "alpha": 0.88,
+            "over": 0,
+            "out": 0,
+            "down": 0,
+            "frame": 0,
+            "frames":  {
+              "blink":[0,2],
+              "stop":[0],
+              "push": [1]
+            },
+            "fps": 1
+        },
+        "xmin": 608,
+        "xmax": 672,
+        "ymin": 480,
+        "ymax": 544,
+        "isDown": false,
+        "isUp": true
+    },
+    "virtualButton2": {
+        "id": "virtual_button_2",
+        "width": 64,
+        "height": 64,
+        "pos": {
+            "x": 704,
+            "y": 480
+        },
+        "sprite": {
+            "id": "virtual_button_2",
+            "file": "assets/images/virtual_button_2.png",
+            "width": 64,
+            "height": 64,
+            "length": 3,
+            "alpha": 0.88,
+            "over": 0,
+            "out": 0,
+            "down": 0,
+            "frame": 0,
+            "frames": {
+              "blink":[0,2],
+              "stop":[0],
+              "push": [1]
+            },
+            "fps": 1
+        },
+        "xmin": 704,
+        "xmax": 768,
+        "ymin": 480,
+        "ymax": 544,
+        "isDown": false,
+        "isUp": true
+    },
+    "virtualButtonUp": {
+        "id": "virtual_button_up",
+        "width": 32,
+        "height": 64,
+        "pos": {
+            "x": 96,
+            "y": 416
+        },
+        "xmin": 96,
+        "xmax": 128,
+        "ymin": 416,
+        "ymax": 480,
+        "isDown": false,
+        "isUp": true
+    },
+    "virtualButtonDown": {
+        "id": "virtual_button_down",
+        "width": 32,
+        "height": 64,
+        "pos": {
+            "x": 96,
+            "y": 512
+        },
+        "xmin": 96,
+        "xmax": 128,
+        "ymin": 512,
+        "ymax": 576,
+        "isDown": false,
+        "isUp": true
+    },
+    "virtualButtonLeft": {
+        "id": "virtual_button_left",
+        "width": 64,
+        "height": 32,
+        "pos": {
+            "x": 32,
+            "y": 480
+        },
+        "xmin": 32,
+        "xmax": 96,
+        "ymin": 480,
+        "ymax": 512,
+        "isDown": false,
+        "isUp": true
+    },
+    "virtualButtonRight": {
+        "id": "virtual_button_right",
+        "width": 64,
+        "height": 32,
+        "pos": {
+            "x": 128,
+            "y": 480
+        },
+        "xmin": 128,
+        "xmax": 192,
+        "ymin": 480,
+        "ymax": 512,
+        "isDown": false,
+        "isUp": true
+    }
+}

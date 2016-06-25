@@ -1,0 +1,77 @@
+[{
+    "id": "monster_9_B",
+    "name": "パワポ怪人(鬼のボス)",
+    "display": true,
+    "width": 64,
+    "height": 48,
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+        "file": "assets/images/monster_2_B.png",
+        "width": 64,
+        "height": 64,
+        "length": 1,
+        "alpha": 1,
+        "frame": 0,
+        "frames": {
+            "ready": [0],
+            "actions": null
+        },
+        "fps": 6
+    },
+    "stop": false,
+    "hpMax": 200,
+    "mpMax": 0,
+    "atk": 100,
+    "def": 7,
+    "itl": 5,
+    "agl": 5,
+    "luk": 5,
+    "skills": null,
+    "hp": 200,
+    "mp": 0,
+    "conditions": [],
+    "exp": 1,
+    "money": 10,
+    "treasures":[
+      {"id": "commodity_1", "prob": 0.2}
+    ]
+}, {
+    "id": "monster_9",
+    "name": "パワポ怪人(鬼)",
+    "display": true,
+    "width": 64,
+    "height": 48,
+    "initFrameState": "down",
+    "frameState": "down",
+    "sprite": {
+        "file": "assets/images/monster_9.png",
+        "width": 64,
+        "height": 64,
+        "length": 1,
+        "alpha": 1,
+        "frame": 0,
+        "frames": {
+            "ready": [0],
+            "actions": null
+        },
+        "fps": 6
+    },
+    "stop": false,
+    "hpMax": 160,
+    "mpMax": 0,
+    "atk": 40,
+    "def": 6,
+    "itl": 5,
+    "agl": 5,
+    "luk": 5,
+    "skills": null,
+    "hp": 160,
+    "mp": 0,
+    "conditions": [],
+    "exp": 1,
+    "money": 10,
+    "treasures":[
+      {"id": "commodity_1", "prob": 0.2}
+    ]
+}]

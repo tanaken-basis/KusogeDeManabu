@@ -1,0 +1,62 @@
+{
+    "commodity_1": {
+        "order": 1010,
+        "name": "コーヒー",
+        "price": 100,
+        "tags": ["field", "battle"]
+    },
+    "commodity_2": {
+        "order": 1020,
+        "name": "油淋鶏",
+        "price": 420,
+        "tags": ["field", "battle"]
+    },
+    "commodity_3": {
+        "order": 1030,
+        "name": "Sラーメン",
+        "price": 300,
+        "tags": ["field", "battle"]
+    },
+    "commodity_4": {
+      "order": 1040,
+        "name": "オムライス",
+        "price": 400,
+        "tags": ["field", "battle"]
+    },
+    "commodity_5": {
+        "order": 1050,
+          "name": "からあげ丼",
+            "price": 400,
+            "tags": ["field", "battle"]
+    },
+    "commodity_6": {
+      "order": 1060,
+          "name": "カップ焼きそば",
+            "price": 150,
+            "tags": ["field", "battle"]
+    },
+    "commodity_7": {
+        "order": 1070,
+            "name": "幻のカップ焼きそば",
+            "price": 500,
+            "tags": ["field", "battle"]
+    },
+    "treasure_1": {
+      "order": 9010,
+      "name": "レポートの勾玉",
+      "price": 0,
+      "tags": ["field", "battle"]
+    },
+    "treasure_2": {
+      "order": 9020,
+      "name": "シュッセキの鏡",
+      "price": 0,
+      "tags": ["field", "battle"]
+    },
+    "treasure_3": {
+      "order": 9030,
+      "name": "シケンの剣",
+      "price": 0,
+      "tags": ["field", "battle"]
+    }
+}

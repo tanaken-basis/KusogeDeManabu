@@ -1,0 +1,302 @@
+[{
+    "id": "map_6-2_monster_Boss_prob_1",
+    "message": {
+      "pos":{
+        "x": 64,
+        "y": 64
+      },
+      "text": "行基本変形で攻撃だ！"
+    },
+    "pos":{
+      "x": 128,
+      "y": 160
+    },
+    "mathexp": [
+      {
+        "type": "matrix",
+        "nrow": 3,
+        "ncol": 3,
+        "contents":[
+          [0,-2,-8],
+          [0,1,4],
+          [1,1,8]
+        ]
+      },
+      {
+        "type": "text",
+        "contents": "=>"
+      },
+      {
+        "type": "table",
+        "nrow": 2,
+        "ncol": 1,
+        "contents":[
+          ["1行目と3行目を"],
+          ["入れ換える"]
+        ],
+        "elasticity": 1.5
+      },
+      {
+        "type": "text",
+        "contents": "=>"
+      },
+      {
+        "type": "matrix",
+        "nrow": 3,
+        "ncol": 3,
+        "contents":[
+          ["prob_1", "prob_2", "prob_3"],
+          ["prob_4", "prob_5", "prob_6"],
+          ["prob_7", "prob_8", "prob_9"]
+        ]
+      },
+      {
+        "type":"pos",
+        "x":300,
+        "y":300
+      },
+      {
+        "type": "text",
+        "contents": "=>"
+      },
+      {
+        "type": "table",
+        "nrow": 2,
+        "ncol": 1,
+        "contents":[
+          ["2行目の(-1)倍を1行目に足し、"],
+          ["2行目の2倍を3行目に足す"]
+        ]
+      },
+      {
+        "type": "text",
+        "contents": "=>"
+      },
+      {
+        "type": "matrix",
+        "nrow": 3,
+        "ncol": 3,
+        "contents":[
+          ["prob_10", "prob_11", "prob_12"],
+          ["prob_13", "prob_14", "prob_15"],
+          ["prob_16", "prob_17", "prob_18"]
+        ]
+      }
+    ],
+    "prob":{
+      "prob_1": "1",
+      "prob_2": "1",
+      "prob_3": "8",
+      "prob_4": "0",
+      "prob_5": "1",
+      "prob_6": "4",
+      "prob_7": "0",
+      "prob_8": "-2",
+      "prob_9": "-8",
+      "prob_10": "1",
+      "prob_11": "0",
+      "prob_12": "4",
+      "prob_13": "0",
+      "prob_14": "1",
+      "prob_15": "4",
+      "prob_16": "0",
+      "prob_17": "0",
+      "prob_18": "0"
+    }
+}, {
+    "id": "map_6-2_monster_2_prob_1",
+    "message": {
+      "pos":{
+        "x": 64,
+        "y": 64
+      },
+      "text": "行基本変形で攻撃だ！"
+    },
+    "pos":{
+      "x": 128,
+      "y": 160
+    },
+    "mathexp": [
+      {
+        "type": "matrix",
+        "nrow": 3,
+        "ncol": 3,
+        "contents":[
+          [1, 0, 3],
+          [3, 1, 12],
+          [0, 1, 3]
+        ]
+      },
+      {
+        "type": "text",
+        "contents": "=>"
+      },
+      {
+        "type": "table",
+        "nrow": 2,
+        "ncol": 1,
+        "contents":[
+          ["1行目の(-3)倍"],
+          ["を2行目に足す"]
+        ]
+      },
+      {
+        "type": "text",
+        "contents": "=>"
+      },
+      {
+        "type": "matrix",
+        "nrow": 3,
+        "ncol": 3,
+        "contents":[
+          ["prob_1", "prob_2", "prob_3"],
+          ["prob_4", "prob_5", "prob_6"],
+          ["prob_7", "prob_8", "prob_9"]
+        ]
+      },
+      {
+        "type":"pos",
+        "x":300,
+        "y":300
+      },
+      {
+        "type": "text",
+        "contents": "=>"
+      },
+      {
+        "type": "table",
+        "nrow": 2,
+        "ncol": 1,
+        "contents":[
+          ["2行目の(-1)倍"],
+          ["を3行目に足す"]
+        ]
+      },
+      {
+        "type": "text",
+        "contents": "=>"
+      },
+      {
+        "type": "matrix",
+        "nrow": 3,
+        "ncol": 3,
+        "contents":[
+          ["prob_10", "prob_11", "prob_12"],
+          ["prob_13", "prob_14", "prob_15"],
+          ["prob_16", "prob_17", "prob_18"]
+        ]
+      }
+    ],
+    "prob":{
+      "prob_1": "1",
+      "prob_2": "0",
+      "prob_3": "3",
+      "prob_4": "0",
+      "prob_5": "1",
+      "prob_6": "3",
+      "prob_7": "0",
+      "prob_8": "1",
+      "prob_9": "3",
+      "prob_10": "1",
+      "prob_11": "0",
+      "prob_12": "3",
+      "prob_13": "0",
+      "prob_14": "1",
+      "prob_15": "3",
+      "prob_16": "0",
+      "prob_17": "0",
+      "prob_18": "0"
+    }
+}, {
+    "id": "map_6-2_monster_3_prob_1",
+    "message": {
+      "pos":{
+        "x": 64,
+        "y": 64
+      },
+      "text": "行基本変形で攻撃だ！"
+    },
+    "pos":{
+      "x": 128,
+      "y": 160
+    },
+    "mathexp": [
+      {
+        "type": "matrix",
+        "nrow": 3,
+        "ncol": 3,
+        "contents":[
+          [2, 4, 6],
+          [1, 2, 3],
+          [-3, -6, -9]
+        ]
+      },
+      {
+        "type": "text",
+        "contents": "=> 1行目を(1/2)倍する =>",
+        "elasticity": 0.7
+      },
+      {
+        "type": "matrix",
+        "nrow": 3,
+        "ncol": 3,
+        "contents":[
+          ["prob_1", "prob_2", "prob_3"],
+          ["prob_4", "prob_5", "prob_6"],
+          ["prob_7", "prob_8", "prob_9"]
+        ]
+      },
+      {
+        "type":"pos",
+        "x":300,
+        "y":300
+      },
+      {
+        "type": "text",
+        "contents": "=>"
+      },
+      {
+        "type": "table",
+        "nrow": 2,
+        "ncol": 1,
+        "contents":[
+          ["1行目の(-1)倍を2行目に足し、"],
+          ["1行目の3倍を3行目に足す"]
+        ]
+      },
+      {
+        "type": "text",
+        "contents": "=>"
+      },
+      {
+        "type": "matrix",
+        "nrow": 3,
+        "ncol": 3,
+        "contents":[
+          ["prob_10", "prob_11", "prob_12"],
+          ["prob_13", "prob_14", "prob_15"],
+          ["prob_16", "prob_17", "prob_18"]
+        ]
+      }
+    ],
+    "prob":{
+      "prob_1": "1",
+      "prob_2": "2",
+      "prob_3": "3",
+      "prob_4": "1",
+      "prob_5": "2",
+      "prob_6": "3",
+      "prob_7": "-3",
+      "prob_8": "-6",
+      "prob_9": "-9",
+      "prob_10": "1",
+      "prob_11": "2",
+      "prob_12": "3",
+      "prob_13": "0",
+      "prob_14": "0",
+      "prob_15": "0",
+      "prob_16": "0",
+      "prob_17": "0",
+      "prob_18": "0"
+    }
+}]
