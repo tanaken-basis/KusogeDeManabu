@@ -1,4 +1,4 @@
 # KusogeDeManabu
-2016/06/25 11:42
+2017/06/16 13:36
 
 You can play this game [here](https://tanaken-basis.github.io/KusogeDeManabu/).
